@@ -1,0 +1,24 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- 20 Multiplication Workshop
+-- Size 14/15
+-- Speed 163/109
+
+    JUMP     b
+a:
+    COPYFROM 2
+    OUTBOX  
+b:
+    INBOX   
+    COPYTO   0
+    INBOX   
+    COPYTO   1
+    SUB      1
+c:
+    COPYTO   2
+    BUMPDN   1
+    JUMPN    a
+    COPYFROM 2
+    ADD      0
+    JUMP     c
+
+

@@ -1,0 +1,21 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- 21 Zero Terminated Sum
+-- Size 10/10
+-- Speed 68/72
+
+    JUMP     c
+a:
+    COPYFROM 0
+b:
+    OUTBOX  
+c:
+    INBOX   
+    JUMPZ    b
+d:
+    COPYTO   0
+    INBOX   
+    JUMPZ    a
+    ADD      0
+    JUMP     d
+
+

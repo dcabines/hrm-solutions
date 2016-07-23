@@ -1,0 +1,31 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- Size 17/5
+-- Speed 22/25
+
+a:
+    INBOX   
+    JUMPZ    b
+    INBOX   
+    JUMPZ    c
+    INBOX   
+    JUMPZ    d
+    INBOX   
+    JUMPZ    e
+    INBOX   
+    JUMPZ    h
+    INBOX   
+    JUMPZ    g
+    INBOX   
+    JUMPZ    f
+    INBOX   
+b:
+c:
+d:
+e:
+f:
+g:
+h:
+    OUTBOX  
+    JUMP     a
+
+

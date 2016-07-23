@@ -1,0 +1,18 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- 16 Absolute Positivity
+-- Size 8/8
+-- Speed 34/34
+
+    JUMP     c
+a:
+    COPYTO   0
+    SUB      0
+    SUB      0
+b:
+    OUTBOX  
+c:
+    INBOX   
+    JUMPN    a
+    JUMP     b
+
+

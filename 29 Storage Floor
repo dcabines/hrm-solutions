@@ -1,0 +1,13 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- 29 Storage Floor
+-- Size 5/5
+-- Speed 25/25
+
+a:
+    INBOX   
+    COPYTO   10
+    COPYFROM [10]
+    OUTBOX  
+    JUMP     a
+
+

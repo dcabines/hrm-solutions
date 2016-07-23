@@ -1,0 +1,17 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- 37 Scavenger Chain
+-- Size 8/8
+-- Speed 63/63
+
+a:
+    INBOX   
+b:
+    COPYTO   22
+    COPYFROM [22]
+    OUTBOX  
+    BUMPUP   22
+    COPYFROM [22]
+    JUMPN    a
+    JUMP     b
+
+
